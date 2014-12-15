@@ -7,7 +7,7 @@ import javafx.scene.layout.VBox;
 public class Controller {
 
 
-    public NewTextField display;
+    public IOField display;
     public VBox mainPanel;
 
     public Button button1;
@@ -104,6 +104,7 @@ public class Controller {
                 break;
             case '/':
                 result2 /= result1;
+                break;
             case '=':
                 result2 = result1;
                 break;

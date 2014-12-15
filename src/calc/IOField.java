@@ -3,7 +3,7 @@ import javafx.scene.control.TextField;
 /**
  * Created by darya on 21/11/14.
  */
-public class NewTextField extends TextField{
+public class IOField extends TextField{
 
     @Override
     public void replaceText(int start, int end, String text) {
